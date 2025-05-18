@@ -172,3 +172,8 @@ terraform state show aws_db_instance.example |grep address
 terraform state show aws_db_instance.example |grep port
 echo
 cd ..
+
+cd Ollama-Terraform
+terraform init
+terraform apply -auto-approve
+cd ..
