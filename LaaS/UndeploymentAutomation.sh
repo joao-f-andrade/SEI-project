@@ -47,3 +47,8 @@ cd ..
 cd KongaTerraform
 terraform destroy -auto-approve
 cd ..
+
+# #Terraform - Ollama
+cd Ollama-Terraform
+terraform destroy -auto-approve
+cd ..
